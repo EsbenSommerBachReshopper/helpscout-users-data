@@ -5,7 +5,7 @@ function Test() {
   return (
     <div className="App">
       <DefaultStyle />
-      <Heading level="h1">Hi {user?.firstName || "there"} 👋</Heading>
+      <Heading level="h2">Hi {user?.firstName || "there"} 👋</Heading> 
     </div>
   );
 }
