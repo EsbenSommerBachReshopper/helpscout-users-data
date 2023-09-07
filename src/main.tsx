@@ -4,11 +4,15 @@ import App from "./App";
 
 import "./index.css";
 import { HelpScoutContextProvider } from "@helpscout/ui-kit";
+import Test from "./Test";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <HelpScoutContextProvider>
       <App />
+    </HelpScoutContextProvider>
+    <HelpScoutContextProvider>
+      <Test />
     </HelpScoutContextProvider>
   </React.StrictMode>
 );
